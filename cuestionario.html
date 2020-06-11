@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ENFERMEDADES MORTALES</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="navbar">
+		<ul>
+			<li><a href="index.html"><i class="fa fa-fw fa-home"></i>Volver al Inicio</a></li>
+			<li><a href="recursos.html"><i class="fa fa-fw fa-image"></i>Recursos Extra</a></li>
+			<li><a href="cuestionario.html"><i class="fa fa-fw fa-file"></i>Cuestionario</a></li>
+		</ul>
+	</div>
+	<header>
+		<h1>EL ENCUENTRO DE DOS MUNDOS</h1>
+	</header>
+	<div class="container">
+		<h1><b>Cuestionario:</b></h1>
+		<form>
+			<label>Nombre:</label>
+			<input type="text" name="nombre" id="nombre" for="nombre" maxlength="30" placeholder="Ingrese su nombre"><br><br>
+			<label>Edad:</label>
+			<input type="number" name="edad" id="edad" max="100" placeholder="Ingrese su edad"><br><br>
+			<label>¿Cuál de estas es una Inmunidad Innata?</label><br>
+			<input type="radio" name="respuestas" id="R1"> Los dientes
+			<input type="radio" name="respuestas" id="R2"> El cabello
+			<input type="radio" name="respuestas" id="R3"> El reflejo de la tos<br><br>
+			<label>Marca solo las infecciones Pre-colombinas.</label><br>
+			<input type="checkbox" name="materia1" id="inf 111"> Verruga Peruana<br>
+			<input type="checkbox" name="materia2" id="inf 112"> Peste bubónica<br>
+			<input type="checkbox" name="materia2" id="inf 112"> Malaria<br>
+			<input type="checkbox" name="materia2" id="inf 112"> Tuberculosis<br>
+			<input type="checkbox" name="materia2" id="inf 112"> Leishmaniasis - Uta<br>
+			<input type="checkbox" name="materia2" id="inf 112"> Sarampión<br>
+			<input type="checkbox" name="materia3" id="inf 113"> Gripe<br><br>
+			<label>¿Cuál de estas es una enfermedad mortal del nuevo continente?</label><br>
+			<input type="radio" name="respuestas" id="R1"> Tos
+			<input type="radio" name="respuestas" id="R2"> Fiebre Amarilla
+			<input type="radio" name="respuestas" id="R2"> Cáncer
+			<input type="radio" name="respuestas" id="R3"> Peste Negra<br><br>
+			<label>¿En qué consiste la Inmunidad Pasiva?</label><br>
+			<textarea name="comentario" id="comentario" cols="65" rows="5" placeholder="Escriba su respuesta aqui"></textarea><br>
+			<label>¿Los nativos se vieron afectados (en su salud) por la conquista de América?</label><br>
+			<input type="radio" name="Si/No" id="SI"> SI
+			<input type="radio" name="Si/No" id="NO"> NO
+			<br>
+			<br>
+			<button class="btn-send" type="button">Enviar</button>
+			<button class="btn-clean" type="reset">Reiniciar</button>
+		</form>
+	</div>
+	<br>
+	<br>
+	<footer>
+		<div class="container">
+			©2020 <a href="" target="_blank">Joako15xt</a>.Todos los derechos reservados
+		</div>
+	</footer>
+</body>
+</html>
